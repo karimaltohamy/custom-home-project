@@ -1,6 +1,11 @@
 @use "../components/header";
 @use "../components/footer";
 @use "../pages/index";
+@use "../pages/about";
+@use "../pages/services";
+@use "../pages/blog";
+@use "../pages/blog_details";
+@use "../pages/contact-us";
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
