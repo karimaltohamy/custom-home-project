@@ -21,13 +21,16 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body>
     <!-- start header -->
     <header class="second_header">
       <div class="container">
         <a href="index.html" class="logo">
-          <h3>Logo</h3>
+          <img src="images/logo.jpg" alt="logo" />
         </a>
         <div class="info_header">
           <div class="links">
@@ -98,17 +101,46 @@
       <div class="container">
         <div class="line">
           <div class="left">
-            <div class="image">
+            <div
+              class="image"
+              data-aos="zoom-in"
+              data-aos-duration="800"
+              data-aos-delay="500"
+            >
               <img src="images/what-we-do-img.jpg" alt="" />
             </div>
-            <div class="secound_image">
+            <div
+              class="secound_image"
+              data-aos="fade-up"
+              data-aos-duration="800"
+              data-aos-delay="700"
+            >
               <img src="images/what-we-do-img2.jpg" alt="" />
             </div>
           </div>
           <div class="right">
-            <div class="subtitle">WHAT WE DO?</div>
-            <h1 class="title">Design for life</h1>
-            <p class="desc">
+            <div
+              class="subtitle"
+              data-aos="fade-right"
+              data-aos-duration="800"
+              data-aos-delay="300"
+            >
+              WHAT WE DO?
+            </div>
+            <h1
+              class="title"
+              data-aos="fade-right"
+              data-aos-duration="800"
+              data-aos-delay="500"
+            >
+              Design for life
+            </h1>
+            <p
+              class="desc"
+              data-aos="fade-right"
+              data-aos-duration="800"
+              data-aos-delay="700"
+            >
               In erat sem, eleifend a odio ut, hendrerit facilisis turpis.
               Praesent venenatis viverra elit, eget maximus leo gravida a. Cras
               magna metus, blandit vitae rhoncus vel, convallis vel nunc. Sed
@@ -117,7 +149,14 @@
               commodo mauris non fringilla luctus.
             </p>
 
-            <a href="contact-us.html" class="btn_more">Contact Us</a>
+            <a
+              href="contact-us.html"
+              class="btn_more"
+              data-aos="fade-right"
+              data-aos-duration="800"
+              data-aos-delay="900"
+              >Contact Us</a
+            >
           </div>
         </div>
       </div>
@@ -129,21 +168,50 @@
       <div class="container">
         <div class="line">
           <div class="left">
-            <div class="subtitle">FUN FACTS</div>
-            <h2 class="title">NUMBERS SPEAKS EVERYTHING</h2>
+            <div
+              class="subtitle"
+              data-aos="fade-left"
+              data-aos-duration="800"
+              data-aos-delay="300"
+            >
+              FUN FACTS
+            </div>
+            <h2
+              class="title"
+              data-aos="fade-left"
+              data-aos-duration="800"
+              data-aos-delay="500"
+            >
+              NUMBERS SPEAKS EVERYTHING
+            </h2>
           </div>
           <div class="right">
-            <div class="box">
+            <div
+              class="box"
+              data-aos="fade-left"
+              data-aos-duration="800"
+              data-aos-delay="600"
+            >
               <img src="images/pencil-and-ruler.png" alt="" />
               <h4>8705</h4>
               <span>SQUARE FEET </span>
             </div>
-            <div class="box">
+            <div
+              class="box"
+              data-aos="fade-left"
+              data-aos-duration="800"
+              data-aos-delay="700"
+            >
               <img src="images/pencil-and-ruler.png" alt="" />
               <h4>8705</h4>
               <span>APARTMENTS</span>
             </div>
-            <div class="box">
+            <div
+              class="box"
+              data-aos="fade-left"
+              data-aos-duration="800"
+              data-aos-delay="800"
+            >
               <img src="images/pencil-and-ruler.png" alt="" />
               <h4>926</h4>
               <span>BEDROOMS </span>
@@ -157,18 +225,33 @@
     <!-- start projects pricing -->
     <div class="projects_pricing">
       <div class="container">
-        <h2 class="title">
+        <h2
+          class="title"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="300"
+        >
           <span>We create projects</span><br />
           from visualization to finished interior
         </h2>
-        <p class="desc">
+        <p
+          class="desc"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="500"
+        >
           Sed non dapibus dolor, non rhoncus dui. Ut eleifend justo at ipsum
           aliquam, vel cursus tellus pulvinar. Nulla vel tempus diam. Nunc
           vulputate, quam sit amet commodo tincidunt, enim lorem scelerisque
           massa, vel ultricies purus ipsum eu mauris.
         </p>
         <div class="boxs">
-          <div class="box">
+          <div
+            class="box"
+            data-aos="fade-left"
+            data-aos-duration="800"
+            data-aos-delay="300"
+          >
             <div class="type">Planning</div>
             <div class="price">$169</div>
             <div class="features">
@@ -195,7 +278,12 @@
             </div>
             <a href="#" class="btn_request">Send Request</a>
           </div>
-          <div class="box">
+          <div
+            class="box"
+            data-aos="fade-left"
+            data-aos-duration="800"
+            data-aos-delay="500"
+          >
             <div class="type">Single Project</div>
             <div class="price">$799</div>
             <div class="features">
@@ -222,7 +310,12 @@
             </div>
             <a href="#" class="btn_request">Send Request</a>
           </div>
-          <div class="box active">
+          <div
+            class="box active"
+            data-aos="fade-left"
+            data-aos-duration="800"
+            data-aos-delay="700"
+          >
             <div class="type">Smart Home</div>
             <div class="price">$2500</div>
             <div class="features">
@@ -249,7 +342,12 @@
             </div>
             <a href="#" class="btn_request">Send Request</a>
           </div>
-          <div class="box">
+          <div
+            class="box"
+            data-aos="fade-left"
+            data-aos-duration="800"
+            data-aos-delay="900"
+          >
             <div class="type">Commercial</div>
             <div class="price">$1264</div>
             <div class="features">
@@ -284,31 +382,65 @@
     <!-- start our team -->
     <div class="our_team">
       <div class="container">
-        <div class="subtitle">Our Team</div>
-        <h2 class="title">Popular Architects</h2>
+        <div
+          class="subtitle"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="300"
+        >
+          Our Team
+        </div>
+        <h2
+          class="title"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="500"
+        >
+          Popular Architects
+        </h2>
         <div class="boxs">
-          <div class="box">
+          <div
+            class="box"
+            data-aos="fade-right"
+            data-aos-duration="800"
+            data-aos-delay="300"
+          >
             <div class="image">
               <img src="images/team_01.jpg" alt="" />
             </div>
             <h4>John Portman</h4>
             <span>Designer</span>
           </div>
-          <div class="box">
+          <div
+            class="box"
+            data-aos="fade-right"
+            data-aos-duration="800"
+            data-aos-delay="500"
+          >
             <div class="image">
               <img src="images/team_02.jpg" alt="" />
             </div>
             <h4>Kelley Miles</h4>
             <span>Architect</span>
           </div>
-          <div class="box">
+          <div
+            class="box"
+            data-aos="fade-right"
+            data-aos-duration="800"
+            data-aos-delay="700"
+          >
             <div class="image">
               <img src="images/team_03.jpg" alt="" />
             </div>
             <h4>Sherman Warner</h4>
             <span>Designer</span>
           </div>
-          <div class="box">
+          <div
+            class="box"
+            data-aos="fade-right"
+            data-aos-duration="800"
+            data-aos-delay="900"
+          >
             <div class="image">
               <img src="images/team_04.jpg" alt="" />
             </div>
@@ -366,5 +498,8 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/menu-mobile.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

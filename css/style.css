@@ -5,7 +5,11 @@ header {
   z-index: 100;
 }
 header.second_header {
-  padding: 10px 0;
+  padding: 0;
+}
+header.second_header .container .logo img {
+  width: 80px;
+  height: 80px;
 }
 header .container {
   display: -webkit-box;
@@ -18,8 +22,10 @@ header .container {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-header .container .logo h3 {
-  font-weight: 700;
+header .container .logo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 header .container .info_header {
   display: -webkit-box;
@@ -84,6 +90,10 @@ header .container .info_header .menu_icon {
 @media (max-width: 768px) {
   header {
     padding: 8px 0;
+  }
+  header .container .logo img {
+    width: 60px;
+    height: 60px;
   }
   header .container .info_header .links {
     display: none;
