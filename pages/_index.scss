@@ -4,7 +4,7 @@ $main-color: #a48c6f;
 .hero_section {
   height: calc(100vh - 93px);
   position: relative;
-  z-index: 100;
+  z-index: 1000;
 
   .container {
     height: 100%;
@@ -62,6 +62,7 @@ $main-color: #a48c6f;
 
       .right {
         width: 60%;
+        display: none;
 
         .image {
           img {
