@@ -2839,6 +2839,9 @@ main .bg_banner svg path {
           animation: draw 2s linear forwards;
 }
 main .bg_banner .banner_img {
+  background-image: url("../images/banner-img-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   position: absolute;
   top: 0;
   left: 0;
