@@ -472,7 +472,7 @@ $main-color: #e99a13;
 
       path {
         &.svg_animation {
-          animation: draw 4s linear forwards;
+          animation: draw 2s linear forwards;
         }
       }
     }
@@ -542,6 +542,13 @@ $main-color: #e99a13;
             }
           }
         }
+      }
+    }
+
+    .background {
+      svg {
+        right: 0 !important;
+        width: 100% !important;
       }
     }
   }

@@ -737,8 +737,8 @@ footer .copy_right {
   height: 100%;
 }
 .creative_section .background .svg_left path.svg_animation {
-  -webkit-animation: draw 4s linear forwards;
-          animation: draw 4s linear forwards;
+  -webkit-animation: draw 2s linear forwards;
+          animation: draw 2s linear forwards;
 }
 .creative_section .background .svg_right {
   position: absolute;
@@ -792,6 +792,10 @@ footer .copy_right {
   }
   .creative_section .line .right .boxs .box p {
     font-size: 13px;
+  }
+  .creative_section .background svg {
+    right: 0 !important;
+    width: 100% !important;
   }
 }
 .achievements_section {
