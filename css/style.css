@@ -201,10 +201,8 @@ header .container .info_header .menu_icon {
 .menu-mobile .content .close-menu svg {
   width: 35px;
 }
-.menu-mobile .content .title {
-  font-size: 35px;
-  font-weight: 600;
-  margin-bottom: 30px;
+.menu-mobile .content img {
+  width: 90px;
 }
 .menu-mobile .content .links .link {
   display: block;
