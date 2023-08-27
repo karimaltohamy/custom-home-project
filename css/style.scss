@@ -65,7 +65,7 @@ main {
       }
     }
     .banner_img {
-      background-image: url("../images/banner-img-2.jpg");
+      background-image: url("../video/3d-render-circled-the-interior-of-the-living-room-2022-08-04-00-08-06-utc.mp4");
       background-size: cover;
       background-repeat: no-repeat;
       position: absolute;
@@ -77,6 +77,18 @@ main {
       height: 100%;
       animation: opacity 6s 1.5s linear forwards;
       opacity: 0;
+    }
+
+    .video_banner {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 100%;
+
+      video {
+        height: 100vh;
+      }
     }
   }
 }

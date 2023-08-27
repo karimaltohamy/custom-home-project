@@ -1,4 +1,4 @@
-$main-color: #a48c6f;
+$main-color: #e99a13;
 
 // start boxs_contact
 .boxs_contact {
@@ -104,7 +104,9 @@ $main-color: #a48c6f;
 
       form {
         .input_item {
-          margin-bottom: 20px;
+          margin-bottom: 25px;
+          position: relative;
+
           label {
             display: block;
             font-weight: 600;
@@ -123,6 +125,15 @@ $main-color: #a48c6f;
 
           textarea {
             height: 200px;
+          }
+
+          .error {
+            position: absolute;
+            bottom: -22px;
+            left: 0;
+            font-size: 13px;
+            color: red;
+            line-height: 1.2;
           }
         }
 
