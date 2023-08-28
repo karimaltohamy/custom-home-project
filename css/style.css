@@ -3055,46 +3055,18 @@ main {
   color: white;
   position: relative;
 }
-main .bg_banner {
+main .video_banner {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: 999;
-}
-main .bg_banner svg {
   width: 100%;
   height: 100%;
 }
-main .bg_banner svg path {
-  -webkit-animation: draw 2s linear forwards;
-          animation: draw 2s linear forwards;
-}
-main .bg_banner .banner_img {
-  background-image: url("../video/3d-render-circled-the-interior-of-the-living-room-2022-08-04-00-08-06-utc.mp4");
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
+main .video_banner video {
   width: 100%;
   height: 100%;
-  -webkit-animation: opacity 6s 1.5s linear forwards;
-          animation: opacity 6s 1.5s linear forwards;
-  opacity: 0;
-}
-main .bg_banner .video_banner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100%;
-}
-main .bg_banner .video_banner video {
-  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @keyframes draw {

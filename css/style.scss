@@ -48,47 +48,17 @@ main {
   color: white;
   position: relative;
 
-  .bg_banner {
+  .video_banner {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
     width: 100%;
-    z-index: 999;
+    height: 100%;
 
-    svg {
+    video {
       width: 100%;
       height: 100%;
-      path {
-        // opacity: 1 !important;
-        animation: draw 2s linear forwards;
-      }
-    }
-    .banner_img {
-      background-image: url("../video/3d-render-circled-the-interior-of-the-living-room-2022-08-04-00-08-06-utc.mp4");
-      background-size: cover;
-      background-repeat: no-repeat;
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      width: 100%;
-      height: 100%;
-      animation: opacity 6s 1.5s linear forwards;
-      opacity: 0;
-    }
-
-    .video_banner {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100vh;
-      width: 100%;
-
-      video {
-        height: 100vh;
-      }
+      object-fit: cover;
     }
   }
 }
